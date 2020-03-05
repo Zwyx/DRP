@@ -1,0 +1,7 @@
+body > script + div {
+  background-color: #21252b !important;
+}
+
+body > script + div > div > div > div > div > button {
+  background-color: #282c34 !important;
+}

@@ -1,0 +1,14 @@
+{
+  "name": "DRP",
+  "version": "1.0",
+  "description": "Dark Reader Plus — Dark mode for custom pages",
+  "manifest_version": 2,
+  "content_scripts": [
+    {
+      "matches": ["http://localhost:3000/*"],
+      "match_about_blank": true,
+      "all_frames": true,
+      "css": ["style.css"]
+    }
+  ]
+}
